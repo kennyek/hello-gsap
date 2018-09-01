@@ -1,0 +1,22 @@
+{
+  "name": "hello-gsap",
+  "version": "1.0.0",
+  "repository": "https://github.com/kennyek/hello-gsap.git",
+  "author": "Kenny Ek <ekkenny@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "path": "^0.12.7"
+  }
+}
